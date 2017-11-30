@@ -8,6 +8,7 @@ Utilizaremos los siguientes servicios de Azure:
 
 ## Pre requisitos ##
 * Contar con una subscripción de Azure
+* Contar con Visual Studio 2015 o superior. Si no lo tienen instalado, pueden crear una máquina virtual con Visual Studio en el portal de Azure.
 * Instalar o tener descargado Azure Storage Explorer (https://azure.microsoft.com/es-mx/features/storage-explorer/)
 
 ## Pasos a seguir ##
