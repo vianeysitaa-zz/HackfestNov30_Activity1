@@ -261,7 +261,9 @@ namespace HackfestNov30_Activity1
  ![Storage Account](images/Step27.png)
 >El flujo para validar las imágenes debe de ser:
 * Verificar que en las imágenes que subimos existe un rostro (detectFaces), y segundo, hacer la comparación de las imágenes(verifyFaces).
->El script que utilizaremos en nuestra vista Upload (Upload.cshtml) quedará así
+>El script que utilizaremos en nuestra vista Upload (Upload.cshtml) quedará así:
+>IMPORTANTE: A nuestra uriBase tenemos que agregar /detect para llamar ese servicio que detecta rostros.
+> En la función verifyFaces también tenemos que modificar el URI y la llave en "Ocp-Apim-Subscription-Key"
 ```html
         <script>
             
